@@ -1,0 +1,17 @@
+{
+  "presets": [["env", {
+    "targets": {
+      "browsers": [
+        "ie 11",
+        "chrome 55",
+        "firefox 45"
+      ]
+    }
+  }], "react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-runtime"
+  ]
+}

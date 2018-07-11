@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Helper Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Helper-Icon">
+            <circle id="Oval" fill="#4A90E2" cx="9.5" cy="9.5" r="9.5"></circle>
+            <text id="?" font-family="Interstate-Light, Interstate" font-size="12" font-weight="300" fill="#FFFFFF">
+                <tspan x="6" y="14">?</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

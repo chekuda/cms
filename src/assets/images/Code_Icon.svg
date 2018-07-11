@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="51px" viewBox="0 0 76 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Code Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Code-Icon" fill="#000000" fill-rule="nonzero">
+            <g id="noun_319885_cc">
+                <path d="M24.3,50.6 C24,50.6 23.7,50.5 23.6,50.3 L1.1,25 C0.7,24.6 0.8,24 1.1,23.6 L23.6,0.8 C24,0.4 24.6,0.4 25,0.8 C25.4,1.2 25.4,1.8 25,2.2 L3.2,24.3 L25,48.9 C25.4,49.3 25.3,49.9 24.9,50.3 C24.8,50.5 24.5,50.6 24.3,50.6 Z" id="Shape"></path>
+                <path d="M51.7,50.6 C51.5,50.6 51.2,50.5 51,50.3 C50.6,49.9 50.6,49.3 50.9,48.9 L72.9,24.3 L51,2.2 C50.6,1.8 50.6,1.2 51,0.8 C51.4,0.4 52,0.4 52.4,0.8 L75,23.6 C75.4,24 75.4,24.6 75,25 L52.4,50.3 C52.2,50.5 52,50.6 51.7,50.6 Z" id="Shape"></path>
+                <path d="M31.5,42.7 C31.4,42.7 31.3,42.7 31.2,42.7 C30.7,42.6 30.3,42 30.5,41.5 L39.6,7.3 C39.7,6.8 40.3,6.5 40.8,6.6 C41.3,6.7 41.7,7.3 41.5,7.8 L32.5,42 C32.3,42.4 31.9,42.7 31.5,42.7 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Address</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Address" fill="#232323" fill-rule="nonzero">
+            <g id="address">
+                <path d="M19.2983282,4.33935766 L11.1255004,0.65304478 L11.1360961,0.64947623 L9.7127384,0 L9.6950789,0.0071371 L9.6809513,0 L8.2540617,0.64947623 L8.2611255,0.65304478 L0.04591476,4.33935766 L0,4.33935766 L0,18.1996086 L19.3089239,18.1996086 L19.3089239,4.33935766 L19.2983282,4.33935766 Z M8.4730398,16.2511799 L8.4730398,11.0089789 L10.842948,11.0089789 L10.842948,16.2511799 L8.4730398,16.2511799 Z M17.3805039,16.2511799 L12.771368,16.2511799 L12.771368,9.0569817 L6.54108783,9.0569817 L6.54108783,11.0089789 L6.54108783,16.2511799 L1.93195197,16.2511799 L1.92842006,5.63474157 L9.6880151,2.2446184 L17.376972,5.63474157 L17.3805039,16.2511799 Z" id="Shape-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

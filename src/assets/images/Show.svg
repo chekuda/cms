@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="19px" viewBox="0 0 30 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Show</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Show">
+            <g id="show">
+                <path d="M0.1723,9.2258 C0.1723,9.2258 5.8163,18.4518 14.7523,18.4518 C23.6893,18.4518 29.3333,9.2258 29.3333,9.2258 C29.3333,9.2258 23.6893,-0.0002 14.7523,-0.0002 C5.8163,-0.0002 0.1723,9.2258 0.1723,9.2258 Z" id="Stroke-1" stroke="#CCCCCC" stroke-width="2"></path>
+                <path d="M19.8334,9.3468 C19.8334,12.1528 17.5584,14.4278 14.7524,14.4278 C11.9464,14.4278 9.6724,12.1528 9.6724,9.3468 C9.6724,6.5408 11.9464,4.2658 14.7524,4.2658 C17.5584,4.2658 19.8334,6.5408 19.8334,9.3468" id="Fill-3" fill="#CCCCCC" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

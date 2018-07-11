@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Payment type</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Payment-type" fill="#000000" fill-rule="nonzero">
+            <g id="payment-type">
+                <rect id="Rectangle-path" x="2.41935484" y="12.5" width="2.66129032" height="1"></rect>
+                <rect id="Rectangle-path" x="6.0483871" y="12.5" width="6.29032258" height="1"></rect>
+                <path d="M23.4677419,0 L0.725806452,0 C0.324919355,0 0,0.33575 0,0.75 L0,15.25 C0,15.66425 0.324919355,16 0.725806452,16 L23.4677419,16 C23.868629,16 24.1935484,15.66425 24.1935484,15.25 L24.1935484,0.75 C24.1935484,0.33575 23.868629,0 23.4677419,0 Z M22.7419355,1.5 L22.7419355,4.625 L1.4516129,4.625 L1.4516129,1.5 L22.7419355,1.5 Z M1.4516129,14.5 L1.4516129,8.625 L22.7419355,8.625 L22.7419355,14.5 L1.4516129,14.5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Monty-Content-Builder-|-Hygiene-Nav-Component" transform="translate(-311.000000, -377.000000)" fill="#000000">
+            <g id="Hygiene" transform="translate(290.000000, 359.000000)">
+                <g id="Hygiene-Icon" transform="translate(21.000000, 18.000000)">
+                    <g id="Page-1">
+                        <path d="M0,14 L20,14 L20,0 L0,0 L0,14 Z M1.11719557,12.921 L3.67642066,12.921 L3.67642066,1.08164286 L1.11719557,1.08164286 L1.11719557,12.921 Z M4.80715867,12.9188929 L18.8849815,12.9188929 L18.8849815,1.08592857 L4.80715867,1.08592857 L4.80715867,12.9188929 Z" id="Fill-1"></path>
+                        <polygon id="Fill-2" points="6 4.5 17 4.5 17 4 6 4"></polygon>
+                        <polygon id="Fill-3" points="6 6.5 17 6.5 17 6 6 6"></polygon>
+                        <polygon id="Fill-4" points="6 8.5 17 8.5 17 8 6 8"></polygon>
+                        <polygon id="Fill-5" points="6 11.5 17 11.5 17 11 6 11"></polygon>
+                        <polygon id="Fill-6" points="6 5.5 16 5.5 16 5 6 5"></polygon>
+                        <polygon id="Fill-7" points="6 9.5 16 9.5 16 9 6 9"></polygon>
+                        <polygon id="Fill-8" points="6 3.5 14 3.5 14 3 6 3"></polygon>
+                        <polygon id="Fill-9" points="6 7.5 14 7.5 14 7 6 7"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

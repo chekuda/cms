@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Table Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Table-Icon" fill="#000000" fill-rule="nonzero">
+            <g id="noun_215539_cc">
+                <path d="M77.5,0 L52.5,0 L27.5,0 L2.5,0 C1.1,0 0,1.1 0,2.5 L0,27.5 L0,52.5 L0,77.5 C0,78.9 1.1,80 2.5,80 L27.5,80 L52.5,80 L77.5,80 C78.9,80 80,78.9 80,77.5 L80,52.5 L80,27.5 L80,2.5 C80,1.1 78.9,0 77.5,0 Z M25,75 L5,75 L5,55 L25,55 L25,75 Z M25,50 L5,50 L5,30 L25,30 L25,50 Z M25,25 L5,25 L5,5 L25,5 L25,25 Z M50,75 L30,75 L30,55 L50,55 L50,75 Z M50,50 L30,50 L30,30 L50,30 L50,50 Z M50,25 L30,25 L30,5 L50,5 L50,25 Z M75,75 L55,75 L55,55 L75,55 L75,75 Z M75,50 L55,50 L55,30 L75,30 L75,50 Z M75,25 L55,25 L55,5 L75,5 L75,25 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

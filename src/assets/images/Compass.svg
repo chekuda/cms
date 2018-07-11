@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Compass</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="22.173 22.9998 22.173 0.827 0 0.827 0 22.9998"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Compass">
+            <g id="compass">
+                <g id="Group-3" transform="translate(0.000000, 0.173500)">
+                    <g id="Fill-1-Clipped">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <path d="M11.0867,1.2798 L11.0867,1.7328 C13.8997,1.7328 16.4417,2.8718 18.2857,4.7148 C20.1277,6.5588 21.2667,9.1008 21.2667,11.9128 C21.2667,14.7258 20.1277,17.2678 18.2857,19.1118 C16.4417,20.9548 13.8997,22.0928 11.0867,22.0938 C8.2737,22.0928 5.7317,20.9548 3.8877,19.1118 C2.0457,17.2678 0.9067,14.7258 0.9067,11.9128 C0.9067,9.1008 2.0457,6.5588 3.8877,4.7148 C5.7317,2.8718 8.2737,1.7328 11.0867,1.7328 L11.0867,1.2798 L11.0867,0.8268 C4.9637,0.8268 0.0007,5.7898 -0.0003,11.9128 C0.0007,18.0368 4.9637,22.9998 11.0867,22.9998 C17.2097,22.9998 22.1727,18.0368 22.1737,11.9128 C22.1727,5.7898 17.2097,0.8268 11.0867,0.8268 L11.0867,1.2798 Z" id="Fill-1" fill="#232323" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+                <polygon id="Fill-4" fill="#232323" fill-rule="nonzero" points="10.9417 18.1877 9.9767 14.1807 5.8557 14.2667 15.3747 7.1807"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
