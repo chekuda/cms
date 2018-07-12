@@ -1,4 +1,5 @@
 import * as components from 'app/redux/components'
+import { getIdsToRemove } from 'app/redux/helpers/helpers'
 
 export const ADD_COMPONENT = 'outputData/ADD_COMPONENT'
 export const REMOVE_COMPONENT = 'outputData/REMOVE_COMPONENT'
@@ -7,41 +8,35 @@ export const addComponent = (parentId, type) => ({
   type: ADD_COMPONENT,
   payload: {
     parentId,
-    newComponent: components[type] && components[type]()
+    type,
+    newSibling: components[type] && components[type]()
   }
 })
 
-export const removeComponent = (myId, parentId) => ({
+export const removeComponent = (myId) => ({
   type: REMOVE_COMPONENT,
   payload: {
-    myId,
-    parentId
+    myId
   }
 })
 
-const reducer = (state = [], action = {}) => {
+
+const reducer = (state = [components.row()], action = {}) => {
   const {
     myId,
     parentId,
-    newComponent
+    newSibling
   } = action.payload || {}
 
   switch (action.type) {
     case ADD_COMPONENT:
-      newComponent.parentId = parentId
+      newSibling.parentId = parentId
 
-      return state.concat(newComponent)
+      return state.concat(newSibling)
     case REMOVE_COMPONENT:
-      if(!myId && !parentId) return state
-      let newComponentList = state
-      if(myId) {
-        newComponentList = state.filter(comp => comp.id !== myId)
-      }
-      if(parentId) {
-        newComponentList = newComponentList.filter(comp => comp.parentId !== parentId)
-      }
+      const idsToRemove = getIdsToRemove(state, myId)
 
-      return newComponentList
+      return state.filter(ele => !idsToRemove.includes(ele.id))
     default:
       return state
   }
