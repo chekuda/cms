@@ -1,0 +1,15 @@
+label {
+    padding:0;
+}
+select {
+    text-transform:capitalize;
+}
+.drop-down-input {
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;
+}
+
+.with-tooltip {
+    width: 70%;
+}

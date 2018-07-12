@@ -1,0 +1,17 @@
+@import '~app/styles/imports/variables';
+
+.text-textarea {
+    border: solid 1px $black;
+    width: 100%;
+    display: inline-block;
+}
+
+.with-tooltip {
+    width: 80%;
+}
+
+.error-message {
+    color: $red;
+    display: block;
+    font-size: 12px;
+}

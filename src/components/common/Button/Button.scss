@@ -1,0 +1,24 @@
+.button-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  width: auto;
+  color: #4A4A4A;
+  padding: 10px;
+  margin: 5px;
+  padding: 0;
+
+  i {
+    background-color:black;
+    background: none;
+    color: #4A4A4A;
+    display: inline-block;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+  }
+}

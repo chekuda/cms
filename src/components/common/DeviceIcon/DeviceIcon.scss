@@ -1,0 +1,18 @@
+.device-icon {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  width: 100px;
+
+  &-image, &-image:before {
+    text-align: center;
+    font-size: 3.5em;
+    width: 1.25em;
+  }
+
+  &-text {
+    text-align: center;
+    font-size: 4em;
+    width: 1.25em;
+  }
+}

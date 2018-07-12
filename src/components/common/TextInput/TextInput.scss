@@ -1,0 +1,17 @@
+// @import '~app/styles/imports/variables';
+
+.text-input {
+    border: solid 1px #000;
+    width: 100%;
+    display: inline-block;
+}
+
+.with-tooltip {
+    width: 80%;
+}
+
+.error-message {
+    color: #D0021B;
+    display: block;
+    font-size: 12px;
+}

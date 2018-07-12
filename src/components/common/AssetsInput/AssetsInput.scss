@@ -1,0 +1,23 @@
+@import '~app/styles/imports/variables';
+
+.assets-input {
+	width: 100%;
+	display: inline-block;
+	select {
+		display: inline-block;
+		width: 90%;
+	}
+}
+
+.assets-preview {
+	width: 8%;
+	position: absolute;
+	z-index: 9;
+	right: 0;
+	top: 24px;
+	border: 1px solid $black;
+	&:hover {
+		width: 70%;
+		z-index: 10;
+	}
+}

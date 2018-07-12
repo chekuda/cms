@@ -1,0 +1,43 @@
+// @import '~app/styles/imports/mixins';
+
+.box-model-input {
+	fieldset {
+		width: 100%;
+	}
+	label {
+		width: 22% !important;
+		margin: 0 0.4rem 0 0;
+		font-size: 14px;
+	}
+	input {
+		width: 22% !important;
+		margin: 0 0.4rem 0 0;
+		padding: .375rem .4rem
+	}
+	legend {
+		padding:0;
+		margin-bottom: .5rem;
+	}
+  .error {
+    border-color: red;
+  }
+  .error-message {
+    display: none;
+  }
+}
+
+// @include breakpoint(phone-portrait-large) {
+//     .box-model {
+//         label {
+//         	width: 21% !important;
+//             margin: 0 0.5rem 0 0;
+//             font-size: 12px;
+
+// 		}
+// 		input {
+// 			width: 21% !important;
+// 			margin: 0 0.5rem 0 0;
+// 			padding: 0.25rem 0.5rem;
+// 		}
+//     }
+// }

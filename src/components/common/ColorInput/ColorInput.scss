@@ -1,0 +1,15 @@
+// @import '~app/styles/imports/variables';
+
+.color-input-swatch {
+  width: 10px;
+  height: 10px;
+}
+
+.color-input {
+  &.error {
+    input {
+    	border-color: red;
+    	color:red;
+    }
+  }
+}

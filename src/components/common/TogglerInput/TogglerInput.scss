@@ -1,0 +1,49 @@
+@import '~app/styles/imports/variables';
+
+.toggler-input {
+    label {
+        background-color: $white;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+        text-shadow: none;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+        margin: 12px 0 0 0;
+        &:hover {
+            cursor: pointer;
+        }
+        span {
+            padding:11px 14px;
+            text-transform: uppercase;
+            background-color: $grey;
+            border:1px solid $bordergrey;
+        }
+        &:last-of-type {
+                span {
+                    border-left:0;
+                }
+        }
+        input[type=radio] {
+            position: absolute !important;
+            clip: rect(0, 0, 0, 0);
+            height: 1px;
+            width: 1px;
+            border: 0;
+            overflow: hidden;
+            &:checked + span {
+                background-color: $darkgrey;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                font-weight: bold;
+            }
+        }
+        input[type=radio]:checked + span {
+            font-weight:normal;
+        }
+    }
+}

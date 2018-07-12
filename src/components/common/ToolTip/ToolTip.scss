@@ -1,0 +1,56 @@
+// @import '~app/styles/imports/variables';
+
+.tip-wrapper {
+    position: relative;
+    display: inline-block;
+    &:hover {
+        .answer {
+            display: block;
+        }
+    }
+  
+    .question-mark {
+        position: relative;
+        display: inline-block;
+        border-radius: 50%;
+        background: blue;
+        color: white;
+        padding: 10px;
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        line-height: 0px;
+        text-indent: -3px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    .answer {
+        display: none;
+        position: absolute;
+        padding: 10px;
+        background: #ccc;
+        text-align: center;
+        width:200px;
+        height:auto;
+        font-size:11px;
+        overflow:visible;
+        z-index:999999;
+        left: -80px;
+        color: #fff;
+        top: -100%;
+        transform: translateY(-100%);
+        &:after {
+          content:"";
+          width:15px;
+          height:15px;
+          bottom: -7px;
+          transform: rotate(45deg);
+          position:absolute;
+          display:block;
+          left: calc(50% - 8px);
+          z-index:9999;
+          background: #ccc;
+        }
+    }
+}
