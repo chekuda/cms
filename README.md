@@ -1,7 +1,7 @@
 # Monty Components 'Builder' Prototype
 
 This will be the main project for creating an output JSON for ECMC.
-Arcadia brands will be able to use this UI in order to create new responsive grids which contain Monty CMS components for feature pages.
+User will be able to use this UI in order to create new responsive grids which contain Monty CMS components for feature pages.
 
 
 ## Running the project.
