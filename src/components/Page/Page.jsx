@@ -8,7 +8,7 @@ import PageTitle from 'app/components/PageTitle/PageTitle'
 export default class Page extends Component {
   render() {
     return (
-      <div className='row-builder-page'>
+      <div className='monty-content-builder'>
         <div className='container'>
           <div className='row top-title-section'>
             <div className='col-10 top-title'>

@@ -1,0 +1,53 @@
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+// Examples of Usage
+// @include breakpoint(phone-portrait-large) {
+//     .header { color:#000; }
+// }
+
+@mixin breakpoint($breakpoint) {
+    @if $breakpoint==large-desktop {
+        @media only screen and (max-width: 1200px) {
+            @content ;
+        }
+    }
+    @else if $breakpoint==desktop {
+        @media (max-width: 1080px) {
+            @content ;
+        }
+    }
+    @else if $breakpoint==tablet-landscape {
+        @media (max-width: 1024px) {
+            @content ;
+        }
+    }
+    @else if $breakpoint==tablet-portrait {
+        @media (max-width: 768px) {
+            @content ;
+        }
+    }
+    @else if $breakpoint==phone-landscape-large {
+        @media (max-width: 736px) {
+            @content ;
+        }
+    }
+    @else if $breakpoint==phone-portrait-large {
+        @media (max-width: 480px) {
+            @content ;
+        }
+    }
+    @else if $breakpoint==phone-portrait-small {
+        @media (max-width: 320px) {
+            @content ;
+        }
+    }
+}

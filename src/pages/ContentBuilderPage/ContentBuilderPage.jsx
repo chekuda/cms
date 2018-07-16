@@ -6,7 +6,7 @@ import ContentBuilderEditor from 'app/containers/ContentBuilderEditor/ContentBui
 
 const ContentBuilderPage = () => {
   return (
-    <Page title="Monty Content Builder">
+    <Page title='Monty Content Builder'>
       <ContentBuilderPreviewer/>
       <ContentBuilderEditor />
     </Page>

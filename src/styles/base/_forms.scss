@@ -1,0 +1,93 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+select, input {
+    font-family: $fontRegular;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    height: calc(2.25rem + 2px);
+    line-height: 1.5;
+    background-color: $white !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius:0;
+    border:1px solid $black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    width:20px;
+    height:20px;
+    cursor:pointer;
+    &[value="true"] {
+        background:url('~app/assets/images/Tick.svg') no-repeat center center;
+    }
+}
+select {
+    background:url('~app/assets/images/Chevron_Down_Icon.svg') no-repeat right 10px top 15px;
+    cursor:pointer;
+}
+select::-ms-expand {
+    display: none;
+}
+button {
+    border-radius: 0;
+    padding: 0.375rem 0.75rem;
+    text-transform:uppercase;
+    width: 100%;
+    background: $black;
+    color: $white;
+    text-align: center;
+    border: none;
+    transition:0.3s all ease-in-out;
+    margin-bottom:20px;
+    cursor: pointer;
+    &.row-builder-submit {
+        margin-bottom: 0;
+    }
+    &.ecmc {
+        background-color: $hardBlue;
+    }
+    &:hover {
+        opacity: 0.75;
+        cursor: pointer;
+    }
+}
+label {
+    &:not(.toggler-input-option) {
+        width:100%;
+    }
+}
+fieldset {
+    margin-bottom:10px;
+}
+.form-group {
+    position:relative;
+    margin-bottom:10px;
+    label {
+        padding:0;
+    }
+}
+.checkbox-input {
+    display:inline-block;
+    vertical-align:top;
+    width:25%;
+}
+.toggler-input {
+    width:140px;
+    display:inline-block;
+}
+.field-error-message {
+    color:$red;
+    font-size:12px;
+    position:absolute;
+    margin-top:5px;
+}

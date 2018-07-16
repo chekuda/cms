@@ -76,7 +76,7 @@ export class ContentBuilderPreviewer extends Component {
   render() {
     const currentElements = this.getCurrentElements()
     return (
-      <div className='previewer'>
+      <div className='component-builder-previewer row'>
         {
           currentElements.map((element, index) => {
             return (

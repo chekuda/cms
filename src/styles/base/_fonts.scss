@@ -1,0 +1,217 @@
+// AvenirNext
+@font-face {
+  font-family: "AvenirNext-400";
+  src:  url('~app/assets/fonts/AvenirNext-Regular.woff2') format('woff2'),
+        url("~app/assets/fonts/AvenirNext-Regular.woff") format("woff"),
+        url("~app/assets/fonts/AvenirNext-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext-700";
+  src:  url('~app/assets/fonts/AvenirNext-Bold.woff2') format('woff2'),
+        url("~app/assets/fonts/AvenirNext-Bold.woff") format("woff"),
+        url("~app/assets/fonts/AvenirNext-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+// Interstate Fonts
+@font-face {
+  font-family: "Interstate-300";
+  src:  url("~app/assets/fonts/Interstate-Light.woff") format("woff"),
+        url("~app/assets/fonts/Interstate-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Interstate-400";
+  src:  url("~app/assets/fonts/Interstate.woff") format("woff"),
+        url("~app/assets/fonts/Interstate.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Interstate-700";
+  src:  url("~app/assets/fonts/Interstate-Bold.woff") format("woff"),
+        url("~app/assets/fonts/Interstate-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+// Montserrat
+@font-face {
+  font-family: 'Montserrat-300';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_cJD3gnD_vx3rCs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Montserrat-400';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Montserrat-700';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+// Platform
+@font-face {
+  font-family: "Platform-300";
+  src:  url("~app/assets/fonts/Platform-Light-Web.woff2") format("woff2"),
+        url("~app/assets/fonts/Platform-Light-Web.woff") format("woff"),
+        url("~app/assets/fonts/Platform-Light-Web.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Platform-400";
+  src:  url('~app/assets/fonts/Platform-Regular-Web.woff2') format('woff2'),
+        url("~app/assets/fonts/Platform-Regular-Web.woff") format("woff"),
+        url("~app/assets/fonts/Platform-Regular-Web.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Platform-500";
+  src:  url("~app/assets/fonts/Platform-Medium-Web.woff2") format("woff2"),
+        url("~app/assets/fonts/Platform-Medium-Web.woff") format("woff"),
+        url("~app/assets/fonts/Platform-Medium-Web.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Platform-700";
+  src:  url("~app/assets/fonts/Platform-Bold-Web.woff2") format("woff2"),
+        url("~app/assets/fonts/Platform-Bold-Web.woff") format("woff"),
+        url("~app/assets/fonts/Platform-Bold-Web.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+// Poppins
+@font-face {
+  font-family: 'Poppins-400';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins-500';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins-600';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+// Roboto
+@font-face {
+  font-family: 'Roboto-200';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzIXKMny.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Roboto-300';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Roboto-400';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Roboto-700';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+// Source Sans Pro
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+@font-face {
+  font-family: 'SourceSansPro-300';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu3cOWxw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'SourceSansPro-400';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'SourceSansPro-600';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu3cOWxw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "SwissBoldCondensed";
+  src:  url("~app/assets/fonts/SwissBoldCondensed.woff2") format("woff2"),
+        url("~app/assets/fonts/SwissBoldCondensed.woff") format("woff"),
+        url("~app/assets/fonts/SwissBoldCondensed.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+$fontRegular: "Interstate-400";
+$fontBold: "Interstate-700";
+$fontLight: "Interstate-300";
+$fontCondensedBold: "SwissBoldCondensed";
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: $fontBold;
+  font-size:18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.h2, h2 {
+  font-size:16px;
+}
+
+body, p, span, div, label, legend {
+  font-family: $fontRegular;
+  font-size:14px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: inherit;
+}

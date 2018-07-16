@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin:0;
+    position: relative;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: $fontBold;
+    font-size:18px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.h2, h2 {
+    font-size:16px;
+}
+
+body, p, span, label, legend {
+    font-family: $fontRegular;
+    font-size:14px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: inherit;
+}
+
+i {
+    font-style: inherit;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+  	height:100%;
+    color:#000;
+    overflow: auto;
+    .wrapper {
+        margin: auto;
+        width:100%;
+    }
+    .row {
+    	section {
+    		width:100%;
+    		padding: 10px 0;
+    		display: flex;
+    		align-items: center;
+            @include breakpoint(tablet-portrait) {
+                display:block;
+            }
+            .col-4:not(.box-model) {
+                label {
+                    width:100%;
+                }
+            }
+    	}
+        @include breakpoint(tablet-portrait) {
+            .col-4:not(.box-model),
+            .col-4:not(.input-section) {
+                margin-bottom:10px;
+            }
+        }
+    }
+}
+
+.hide {
+	display: none;
+}
+
+/* Froala */
+.fr-box {
+    margin-bottom:20px;
+    .fr-view {
+        span, em, u, strong {
+            font-family: inherit;
+            font-size: inherit;
+        }
+    }
+}
+
+.app-version {
+    color: #ccc;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+}
+
+@include breakpoint(tablet-portrait) {
+    .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

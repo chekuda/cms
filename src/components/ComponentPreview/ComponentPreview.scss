@@ -1,8 +1,104 @@
-.element-container {
-  display: flex;
-  margin: 20px;
-  text-align: center;
-}
-.element-children {
-  padding: 20px;
-}
+.component-container.col {
+    padding: 15px;
+    text-align: center;
+    border: solid 1px #ccc;
+
+    & button {
+      margin: 0;
+    }
+
+    & .icon-section {
+      margin: 0 auto;
+      width: 30px;
+      height: 30px;
+
+      &.copy-component {
+        &::before {
+          content: "";
+          background: url('~app/assets/images/File_Icon.svg') no-repeat;
+          background-size: contain;
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+        }
+      }
+      &.heading-component {
+        &::before {
+          content: "";
+          background: url('~app/assets/images/Heading_Icon.svg') no-repeat;
+          background-size: contain;
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+        }
+      }
+      &.video-component {
+        &::before {
+          content: "";
+          background: url('~app/assets/images/Video_Icon.svg') no-repeat;
+          background-size: contain;
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+        }
+      }
+    }
+
+    & .action-section.row {
+      justify-content: center;
+
+      & .action-button {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: transparent;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-size: contain;
+        }
+      }
+
+      & .add-child {
+        &::before {
+          background: 50%/50% url('~app/assets/images/Add_Component.svg') no-repeat;
+        }
+      }
+
+      & .edit-component {
+        &::before {
+          background: 50%/50% url('~app/assets/images/Edit_Icon.svg') no-repeat;
+        }
+      }
+    }
+
+    & .remove-component {
+      position: absolute;
+      margin: 0;
+      top: -10px;
+      right: -10px;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      background: #ccc;
+      border: solid 1px #000;
+      border-radius: 20px;
+
+      &::before {
+        content: "";
+        background: 50%/50% url('~app/assets/images/Close_Icon.svg') no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+      }
+    }
+  }

@@ -1,0 +1,31 @@
+// Bootstrap
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/scss/mixins/grid";
+@import "~bootstrap/scss/mixins/grid-framework";
+
+// Froala Editor
+@import "~froala-editor/css/froala_style.min.css";
+@import "~froala-editor/css/froala_editor.pkgd.min.css";
+
+// // Font Awesome
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+// Variables
+@import "imports/variables";
+
+// Base
+@import "base/fonts";
+@import "base/forms";
+
+// Imports
+@import "imports/mixins";
+
+// Modules
+@import "modules/app";
+// @import "modules/modal";
+
+// DatePicker
+
+@import "~react-datepicker/dist/react-datepicker.css"
