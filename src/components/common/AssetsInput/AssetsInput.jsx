@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import DropDownInput from 'app/common/DropDownInput/DropDownInput'
+import DropDownInput from 'app/components/common/DropDownInput/DropDownInput'
 import './AssetsInput.scss'
 
 const IMAGE_REGEX = /(url\(")|("\))|({wcsUrl})/g

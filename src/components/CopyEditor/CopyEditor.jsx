@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PageTitle from 'app/components/PageTitle/PageTitle'
-// import FroalaConfigured from 'app/components/FroalaConfigured/FroalaConfigured'
 import TextInput from 'app/components/common/TextInput/TextInput'
 import BorderInput from 'app/components/common/BorderInput/BorderInput'
 import BoxModelInput from 'app/components/common/BoxModelInput/BoxModelInput'
@@ -9,7 +8,7 @@ import CheckboxInput from 'app/components/common/CheckboxInput/CheckboxInput'
 
 import './CopyEditor.scss'
 
-const Copy = ({ value, onChange, id }) => {
+const CopyEditor = ({ value, onChange, id }) => {
   return (
     <div className="col-12 cms-copy-component">
       <form>
@@ -18,15 +17,8 @@ const Copy = ({ value, onChange, id }) => {
             <PageTitle title='Copy Component Settings'/>
           </div>
         </div>
-        {/* <div className="row cms-copy-settings">
-          <div className='col-12 cms-copy-editor'>
-            <FroalaConfigured
-              name={`${name}.options.content`}
-              value={ value.options.content }
-              onChange={ onChange }
-            />
-          </div>
-        </div> */}
+        <div className="row cms-copy-settings">
+        </div>
         <div className="row cms-copy-settings">
           <div className='col-12 cms-copy-modal-boxes'>
             <h3>Styling</h3>
@@ -106,10 +98,10 @@ const Copy = ({ value, onChange, id }) => {
   )
 }
 
-Copy.propTypes = {
+CopyEditor.propTypes = {
   value: PropTypes.object.isRequired,
   id: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired
 }
 
-export default Copy
+export default CopyEditor

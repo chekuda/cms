@@ -1,0 +1,43 @@
+@import '~app/styles/imports/variables';
+
+.column-editor {
+    padding:0 !important;
+    background: $lightgrey;
+    margin: 0 0 20px !important;
+    width:100%;
+    >div,
+    >fieldset {
+        margin-bottom: 10px;
+    }
+    >.col-12 {
+        padding:0;
+    }
+    button {
+        margin: auto 15px;
+    }
+    .Column.Offset,
+    .Column.Span {
+    	&:before {
+            content: "";
+            background: url('~app/assets/images/Offset_Icon.svg') no-repeat;
+            background-size: cover;
+            width: 11px;
+            height: 11px;
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}
+.columnEditor {
+    padding-top:20px !important;
+    background: $lightgrey;
+    border:1px solid $bordergrey;
+    margin: 0 0 20px !important;
+    >div,
+    >fieldset {
+        margin-bottom: 10px;
+    }
+    >div {
+        padding:0;
+    }
+}

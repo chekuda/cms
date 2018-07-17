@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
-import Copy from 'app/components/copyEditor/copyEditor'
+import CopyEditor from 'app/components/CopyEditor/CopyEditor'
+import ColumnEditor from 'app/components/ColumnEditor/ColumnEditor'
 import { applyChange, removeEditor } from 'app/redux/reducers/editor/editor'
 import { saveEditorChanges } from 'app/redux/reducers/component/component'
 
@@ -10,7 +11,8 @@ export class ContentBuilderEditor extends Component {
   constructor(props) {
     super(props)
     this.listOfComponents = {
-      copy: Copy
+      copy: CopyEditor,
+      column: ColumnEditor
     }
   }
   getCurrentEditor() {
@@ -47,6 +49,8 @@ export class ContentBuilderEditor extends Component {
           id={currentId}
           value={currentEditor}
           onChange={this.handleChange}
+          pageAssets={this.props.pageAssets}
+          pageAssetsPrefix={this.props.pageAssetsPrefix}
         />
         <button type='button' onClick={() => this.saveEditorChanges(currentEditor)}>Save</button>
       </div>
@@ -56,7 +60,9 @@ export class ContentBuilderEditor extends Component {
 
 export default connect(
   (state) => ({
-    editor: state.editor
+    editor: state.editor,
+    pageAssets: state.combinedPageAssetsReducer.pageAssetsReducer,
+    pageAssetsPrefix: state.combinedPageAssetsReducer.pageAssetsPrefixReducer
   }),
   (dispatch) => bindActionCreators({ applyChange, removeEditor, saveEditorChanges }, dispatch)
 )(ContentBuilderEditor)

@@ -13,7 +13,8 @@ const DropDownInput = ({
   disabled = false,
   className = '',
   onChange,
-  toolTipText }) => (
+  toolTipText }) => {
+  return (
     <div className='form-group'>
       {label && <label className={label}>{label}</label>}
       {
@@ -38,7 +39,8 @@ const DropDownInput = ({
       }
       {toolTipText && <ToolTip>{toolTipText}</ToolTip>}
     </div>
-)
+  )
+}
 
 DropDownInput.propTypes = {
   label: PropTypes.string,
